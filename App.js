@@ -1,3 +1,7 @@
+/*
+*  Example of Use
+*/
+
 require('./index.js');
 
 function sqrt(args) {
