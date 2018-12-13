@@ -1,5 +1,6 @@
 /*
-*  Example of Use
+*  Example of Use to check the time difference 
+* between memomization and non memomization 
 */
 
 require('./index.js');
