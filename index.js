@@ -8,8 +8,9 @@ module.exports = Function.prototype.memomize = function () {
 
   return function() {
     var args = Array.prototype.slice.call(arguments);
+
     that.cache = that.cache || {};
     
-    return that.cache[args] ? that.cache[args] : (that.cache[args] = that.apply(this, args));
+    return that.cache[args] ? that.cache[args] : (that.cache[args] = args[0]);
   }
 }
